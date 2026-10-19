@@ -51,7 +51,7 @@ nav a:hover {
 
 .hero {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                    url("https://image.tmdb.org/t/p/w1280/r2213C3B32345.jpg");
+                    url("https://media.themoviedb.org/t/p/w300_and_h450_face/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg");
   background-size: cover;
   background-position: center;
   min-height: 40vh;
