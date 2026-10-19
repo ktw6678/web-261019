@@ -33,7 +33,7 @@ nav a {
 
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://image.tmdb.org/t/p/w1280/iA332U2C1Iq21p1915c321g.jpg");
+    url("https://image.tmdb.org/t/p/w1280/5vHssUeZJVCSbWPnUDsR9EDCZZW.jpg");
   background-size: cover;
   background-position: center;
   min-height: 40vh;
@@ -48,7 +48,7 @@ nav a {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
