@@ -48,10 +48,9 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
 .hero {
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                    url("https://media.themoviedb.org/t/p/w300_and_h450_face/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg");
+                    url("https://image.tmdb.org/t/p/w1280/r2213C3B32345.jpg");
   background-size: cover;
   background-position: center;
   min-height: 40vh;
@@ -72,41 +71,44 @@ nav a:hover {
   color: #ccc;
 }
 
-
 .board {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
   gap: 20px;
 }
 
-
-
 .card {
   background-color: #ffffff;
   color: #222;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 부드러운 전환 효과 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
 }
 
-
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 20px rgba(245, 197, 24, 0.6), 0 10px 20px rgba(0, 0, 0, 0.3); 
-  
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.6), 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .poster-wrapper {
   position: relative;
   width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .poster {
   width: 100%;
   height: auto;
   display: block;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .poster {
+  opacity: 1;
 }
 
 
@@ -115,10 +117,12 @@ nav a:hover {
   top: 10px;
   right: 10px;
   background-color: #f5c518;
-  color: #000;
+  color: #000000;
   font-weight: bold;
   padding: 4px 8px;
-  border-radius: 4px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  z-index: 99;
 }
 
 .info {
@@ -162,16 +166,12 @@ footer {
   line-height: 1.5;
 }
 
-
-
-
 @media (min-width: 600px) {
   nav ul {
     flex-direction: row;
     gap: 20px;
   }
 }
-
 
 @media (min-width: 1024px) {
   .hero {
