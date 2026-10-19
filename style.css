@@ -98,6 +98,7 @@ nav a:hover {
   
 }
 
+
 .poster-wrapper {
   position: relative;
   width: 100%;
@@ -109,21 +110,17 @@ nav a:hover {
   display: block;
 }
 
-
 .badge {
-  position: absolute !important;
-  top: 10px !important;
-  right: 10px !important;
-  background-color: #f5c518 !important;
-  color: #000000 !important;
-  font-weight: bold !important;
-  padding: 4px 8px !important;
-  border-radius: 12px !important;
-  font-size: 0.85rem !important;
-  z-index: 99999 !important;
-  display: inline-block !important;
-  opacity: 1 !important;
-  visibility: visible !important;
+  position: absolute;  
+  top: 10px;        
+  right: 10px; 
+  background-color: #f5c518;
+  color: #000000;        
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 12px;    
+  z-index: 10;             
 }
 
 .info {
