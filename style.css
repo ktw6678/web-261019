@@ -32,8 +32,8 @@ nav a {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("https://image.tmdb.org/t/p/w1280/5vHssUeZJVCSbWPnUDsR9EDCZZW.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://image.tmdb.org/t/p/w1280/iA332U2C1Iq21p1915c321g.jpg");
   background-size: cover;
   background-position: center;
   min-height: 40vh;
@@ -48,7 +48,7 @@ nav a {
 
 .board {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
 }
 
@@ -58,16 +58,13 @@ nav a {
   color: #222;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
-  border: 2px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
   animation: rise 0.6s backwards;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(245, 158, 11, 0.4);
-  border-color: #f59e0b;
 }
 
 .card:nth-child(1) { animation-delay: 0.0s; }
