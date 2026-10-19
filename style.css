@@ -80,19 +80,22 @@ nav a:hover {
 }
 
 
+
 .card {
   background-color: #ffffff;
   color: #222;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 부드러운 전환 효과 */
   display: flex;
   flex-direction: column;
 }
 
+
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.6), 0 10px 20px rgba(0, 0, 0, 0.3); 
+  
 }
 
 .poster-wrapper {
