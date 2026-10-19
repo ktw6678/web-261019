@@ -118,9 +118,7 @@ nav a:hover {
   color: #000;
   font-weight: bold;
   padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 0.85rem;
-  z-index: 10;
+  border-radius: 4px;
 }
 
 .info {
